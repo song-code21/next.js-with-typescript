@@ -6,7 +6,6 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps): ReactElement{
   return (
     <>
-    
       <div>{children}</div>
     </>
   );
